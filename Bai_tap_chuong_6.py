@@ -57,6 +57,7 @@ print("Chiều dài chuỗi s3 =", len(z))
 print("Chuỗi 4 =", x[2:5])
 print("Chuỗi s2 lặp lại 2 lần =", y*2)
 
+
 #1.9
 x = float(input("Lãi suất 1 năm ( % ): "))
 y = int(input("SỐ tiền gửi: "))
@@ -64,3 +65,4 @@ z = int(input("Số tháng gửi: "))
 t = (z*y)*(x/100/12)
 print("Tiền lãi = ", t, "vnd")
 print("Tiền vốn + lãi = ", y, "+", t, "=", y + t, "vnd" )
+
