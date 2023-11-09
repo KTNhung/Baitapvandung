@@ -5,6 +5,16 @@ print("****** ******    **      **     **   **")
 print("**  ** **        **      **     **   **")
 print("**  ** ** ****   ******  ******  ******")
 
+#1.2
+x = 10 
+y = 5
+print("x =",x, "y =",y)
+print("Tổng x + y =", x + y )
+print("Hiệu x - y =", x - y)
+print("Tích x*y = ", x*y )
+print("Thương x/y = ", x/y )
+
+
 #1.3 
 so_luong = 5
 don_gia = 25000
@@ -21,10 +31,3 @@ p = (a + b + c)/2
 import math
 print("Diện tích tam giác có số đo", a, b, c, "là :", math.sqrt(p*(p-a)*(p-b)*(p-c)))
 
-import math
-a = float(input("Nhập độ dài cạnh a: "))
-b = float(input("Nhập độ dài cạnh b: "))
-c = float(input("Nhập độ dài cạnh c: "))
-p = (a + b + c) / 2
-s = math.sqrt(p * (p - a) * (p - b) * (p - c))
-print("Diện tích tam giác là:", s)
