@@ -9,8 +9,11 @@ print("**  ** ** ****   ******  ******  ******")
 #1.2
 x = 10 
 y = 5
-print("Tổng x + y", x + y )
-
+print("x =",x, "y =",y)
+print("Tổng x + y =", x + y )
+print("Hiệu x - y =", x - y)
+print("Tích x*y = ", x*y )
+print("Thương x/y = ", x/y )
 
 #1.3
 so_luong = 5
